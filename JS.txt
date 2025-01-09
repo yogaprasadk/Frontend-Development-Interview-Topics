@@ -1,0 +1,136 @@
+1. Variables and Data Types
+
+    Var, let, const: Difference between them
+    Primitive data types: string, number, boolean, null, undefined, symbol, bigint
+    Complex data types: object, array, function
+    Type coercion and type conversion
+
+2. Operators
+
+    Arithmetic, comparison, logical, assignment operators
+    Ternary operator (condition ? expr1 : expr2)
+    Logical operators (&&, ||, !)
+
+3. Control Flow
+
+    if, else if, else
+    Switch statement
+    Loops: for, while, do while
+    Break and continue
+
+4. Functions
+
+    Function declaration vs function expression
+    Arrow functions and their differences with regular functions
+    Parameters, arguments, and return values
+    Function scope vs block scope (var vs let/const)
+    Higher-order functions (functions that take other functions as arguments)
+    Callback functions
+
+5. Scope and Closures
+
+    Global scope vs local scope
+    Lexical scoping
+    Closures: How and why they are created, and practical examples
+    The "this" keyword in different contexts (global, function, object methods, arrow functions)
+
+6. Arrays and Array Methods
+
+    Basic array methods: push(), pop(), shift(), unshift(), concat(), slice(), splice()
+    Iterating over arrays: forEach(), map(), filter(), reduce(), some(), every()
+    Destructuring arrays
+
+7. Objects and Object Manipulation
+
+    Creating and manipulating objects
+    Destructuring objects
+    Object methods: Object.keys(), Object.values(), Object.entries()
+    Object spread: ... syntax
+    Prototypes and inheritance
+
+8. ES6+ Features
+
+    Arrow functions
+    Template literals (string interpolation)
+    Default parameters
+    Rest and spread operators
+    Destructuring (arrays and objects)
+    Classes: syntax and inheritance
+    Modules: import, export, default vs named exports
+    Promises: Basic usage, .then(), .catch(), and async/await
+
+9. Asynchronous JavaScript
+
+    Callbacks and callback hell
+    Promises: how they work, chaining .then()
+    Async/await: syntax and handling asynchronous code
+    Event loop and call stack: how JavaScript handles asynchronous code execution
+
+10. Error Handling
+
+    Try, catch, finally blocks
+    Throwing errors with throw
+    Handling custom errors in JavaScript
+
+11. Event Handling
+
+    Event listeners: addEventListener() and inline events
+    Event bubbling and capturing
+    Event delegation
+    Preventing default behavior with preventDefault() and stopPropagation()
+
+12. DOM Manipulation
+
+    Selecting DOM elements: getElementById(), getElementsByClassName(), querySelector(), querySelectorAll()
+    Modifying content: innerHTML, textContent, value
+    Changing styles: style property
+    Creating, appending, and removing elements dynamically
+
+13. JavaScript Classes and Inheritance
+
+    Creating classes with class syntax
+    Constructor and methods in classes
+    Inheritance using extends and super
+    Static methods and getter/setter
+
+14. JSON (JavaScript Object Notation)
+
+    Converting JavaScript objects to JSON and vice versa using JSON.stringify() and JSON.parse()
+    Handling nested objects and arrays in JSON
+
+15. Understanding this
+
+    What this refers to in different contexts (global, inside methods, arrow functions)
+    Binding this: .bind(), .call(), and .apply()
+    Arrow functions and the behavior of this
+
+16. Hoisting
+
+    Hoisting behavior for variables and functions
+    Hoisting with var, let, const and how they differ
+    Temporal dead zone (TDZ) for let and const
+
+17. Callbacks and Higher-Order Functions
+
+    What are higher-order functions?
+    Example of callbacks used in functions like setTimeout(), map(), filter(), reduce()
+    Practical examples and scenarios of using callbacks
+
+18. Memory Management and Garbage Collection
+
+    Garbage collection in JavaScript
+    References and memory leaks
+    Closing over variables and potential memory issues
+
+19. Data Structures
+
+    Arrays and objects as basic data structures
+    Maps vs Objects: differences, when to use each
+    Sets and WeakSets
+    WeakMaps
+
+20. Performance Optimization
+
+    Debouncing and throttling
+    Minimizing the impact of frequent DOM updates
+    Efficient looping and recursion
