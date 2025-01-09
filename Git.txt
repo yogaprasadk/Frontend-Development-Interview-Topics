@@ -1,0 +1,93 @@
+For a fresher's Git interview, you'll be expected to have a good understanding of the basic Git concepts and commands, as Git is a fundamental tool for version control in most development environments. Below are the basic Git topics that are essential for a fresher interview:
+1. Introduction to Git
+
+    What is Git? (Distributed version control system)
+    Difference between Git and SVN (Centralized version control system)
+    Why Git is widely used in modern software development
+    Git workflows (centralized workflow, feature branching, forking workflow, etc.)
+
+2. Git Setup
+
+    Setting up Git: git config --global user.name "Your Name", git config --global user.email "your.email@example.com"
+    Configuring Git on your local machine (global/local configurations)
+    Setting up a Git repository: git init
+
+3. Basic Git Commands
+
+    git init: Initialize a new Git repository
+    git clone: Clone an existing repository from a remote server
+    git status: Check the status of files in your repository (tracked, modified, staged, etc.)
+    git add: Add files to the staging area (e.g., git add <file-name>, git add .)
+    git commit: Commit changes to the local repository (e.g., git commit -m "Message")
+    git log: View the commit history
+    git diff: View the differences between changes made to files
+
+4. Git Branching
+
+    Branches in Git: Creating branches for features, bug fixes, etc.
+    git branch: List branches (git branch), create branches (git branch <branch-name>), and delete branches (git branch -d <branch-name>)
+    git checkout: Switch branches (git checkout <branch-name>)
+    git switch: A newer alternative to git checkout for switching branches (git switch <branch-name>)
+    git merge: Merging changes from one branch into another (e.g., merging a feature branch into main or master)
+
+5. Remote Repositories
+
+    What is a remote repository?
+    git remote: List and manage remotes (e.g., git remote -v, git remote add <name> <url>)
+    git push: Push local commits to a remote repository (e.g., git push origin <branch-name>)
+    git pull: Fetch and merge changes from the remote repository into your local branch (e.g., git pull origin <branch-name>)
+    git fetch: Fetch changes from the remote without merging them
+
+6. Git Collaboration
+
+    Forking and Pull Requests: Common in open-source development, forking a repo and creating pull requests
+    git merge vs. git rebase: Understanding the difference between merging and rebasing branches
+        Merge creates a new commit with the merged changes.
+        Rebase applies your changes on top of another branch, creating a linear history.
+    Resolving merge conflicts: Using git mergetool or manually resolving conflicts
+
+7. Undoing Changes
+
+    git reset: Undo changes in your local repository (e.g., git reset --hard, git reset <file-name>)
+    git checkout -- <file-name>: Discard changes to a file (restores the file to the last committed version)
+    git revert: Create a new commit that undoes the changes of a previous commit
+    git stash: Temporarily save changes without committing them (e.g., git stash, git stash pop)
+
+8. Git History and Inspection
+
+    git log: View commit history with details (git log --oneline for a simplified view)
+    git show: Show details about a specific commit
+    git diff: View changes between commits, branches, or your working directory and the last commit
+
+9. Git Configuration and Personalization
+
+    Setting global ignore files: .gitignore file for ignoring specific files/folders (e.g., build files, log files)
+    Understanding global .gitconfig file for user-specific configuration
+
+10. Working with Tags
+
+    git tag: Tagging important points in history (e.g., git tag <tag-name> <commit-hash>)
+    git push --tags: Push tags to a remote repository
+
+11. Basic Troubleshooting
+
+    git status and git diff to troubleshoot uncommitted changes
+    Checking the commit history to investigate any issues (git log)
+    Fixing common errors in Git such as merge conflicts
+
+12. Git Workflow Basics
+
+    Gitflow Workflow: Common branching strategy (feature branches, release branches, hotfix branches)
+    GitHub Flow: Simple, lightweight workflow using the main branch and feature branches
+
+13. Common Git Errors and Solutions
+
+    Detached HEAD: What it means and how to fix it
+    Merge conflicts: How to identify and resolve them
+    Untracked files: How to deal with untracked files and unwanted changes
+
+14. Using Git with GitHub/GitLab/Bitbucket
+
+    How to create a repository on GitHub/GitLab/Bitbucket and push local repositories
+    Forking a repo, creating branches, and submitting pull requests (common for open-source contributions)
+
