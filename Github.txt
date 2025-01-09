@@ -1,0 +1,96 @@
+1. Introduction to GitHub
+
+    What is GitHub?: Understanding GitHub as a cloud-based platform for version control and collaboration.
+    Difference between Git and GitHub: Git is a version control system, whereas GitHub is a hosting service for Git repositories.
+    Why GitHub is popular: Collaboration, code review, and community-driven open-source development.
+
+2. GitHub Account and Setup
+
+    Creating a GitHub account: Sign-up process and basic settings.
+    SSH keys: Setting up SSH keys for secure authentication (vs HTTPS) and pushing to GitHub repositories.
+    GitHub Desktop: Basic introduction for users who prefer GUI over command line.
+
+3. Creating and Managing Repositories
+
+    Creating a new repository on GitHub (via web interface or command line).
+    Cloning a repository to your local machine using git clone or GitHub Desktop.
+    Forking a repository: Forking others' repositories to contribute to open-source projects.
+    Setting up a repository locally: Initializing a local Git repository with git init and connecting it to a GitHub remote.
+
+4. Working with Branches and Pull Requests
+
+    Creating and managing branches on GitHub:
+        Creating branches (git branch), switching branches (git checkout <branch>), and pushing branches to GitHub.
+    Creating Pull Requests (PRs): Making contributions through pull requests from a branch or fork to the main repository.
+        PR process: Submitting, reviewing, and merging pull requests.
+    Merging PRs: How to merge PRs (both locally and via GitHub UI).
+    Handling PR reviews: Addressing feedback, making changes, and pushing updates to the PR.
+
+5. Forking and Contributing to Open Source Projects
+
+    Forking a project: Cloning a repository from another user and contributing back.
+    Syncing forks: Keeping a fork up to date with the upstream repository.
+    Creating an issue: Reporting bugs or suggesting features in a repository via GitHub Issues.
+    Submitting a Pull Request (PR) to contribute to an open-source project.
+
+6. Collaboration and Teamwork
+
+    GitHub Organizations: Understanding organizations for teams or companies to manage multiple repositories.
+    Collaborators: Adding collaborators to a private repository.
+    Teams: Understanding how GitHub teams help manage access to repositories and projects.
+
+7. Managing Releases
+
+    GitHub Releases: Creating and managing releases in repositories to track versions or milestones.
+    Tagging: Using Git tags to mark specific commits as releases or important milestones.
+
+8. GitHub Issues and Projects
+
+    GitHub Issues: Tracking bugs, tasks, and feature requests with GitHub Issues.
+        Labeling, assigning, and closing issues.
+    GitHub Projects: Managing tasks with Kanban-style boards (organizing issues and pull requests).
+
+9. GitHub Actions (CI/CD) Basics
+
+    Introduction to GitHub Actions: Automating workflows for tasks like testing, building, and deploying code.
+    Setting up simple CI/CD workflows using .github/workflows directory.
+    Example: Running tests or deploying code automatically when a pull request is merged.
+
+10. GitHub Pages
+
+    GitHub Pages: Hosting static websites directly from a GitHub repository.
+    Creating a personal website or project documentation using GitHub Pages.
+
+11. Basic GitHub Workflow for Collaboration
+
+    Cloning a repository: git clone <repo-url> to start working on a project.
+    Creating a new branch: git checkout -b <branch-name> to create and switch to a new branch for your work.
+    Making changes: Editing files and using git add <file>, git commit -m "message", and git push to update GitHub.
+    Pull Requests: Submitting a pull request to propose your changes for review and merge.
+
+12. GitHub Web Interface Basics
+
+    Navigating the GitHub UI: Viewing repositories, issues, pull requests, and managing settings.
+    Branch management: Switching between branches using the GitHub web interface.
+    Commits and History: Viewing commit history, exploring diffs, and reviewing changes on GitHub.
+
+13. GitHub Actions and Automation (Advanced)
+
+    Setting up basic workflows (e.g., automated tests when a PR is created).
+    Understanding the YAML configuration files used to define GitHub Actions workflows.
+
+14. Understanding GitHub Security Features
+
+    Two-factor authentication (2FA) for securing your GitHub account.
+    Code scanning and security alerts: GitHub features to identify vulnerabilities and weaknesses in your code.
+    Dependabot: Automatically keeping your dependencies up to date.
+
+15. GitHub Documentation and ReadMe Files
+
+    README.md: Writing a good README.md to explain your project, setup instructions, and usage.
+    Markdown basics: Basic syntax for writing documentation in Markdown format.
+
+16. GitHub Gists
+
+    Gists: Sharing code snippets, notes, or other files with others using GitHub Gists.
+    Public vs private gists: Understanding the privacy options for gists.
