@@ -1,0 +1,100 @@
+CSS Selectors
+
+    Basic selectors: id, class, element
+    Descendant and child selectors
+    Attribute selectors
+    Pseudo-classes (:hover, :focus, :nth-child(), etc.)
+    Pseudo-elements (::before, ::after, etc.)
+
+2. Box Model
+
+    Understanding the components: content, padding, border, margin
+    box-sizing: content-box vs border-box
+    How padding and margins affect layout
+
+3. Positioning
+
+    Static, relative, absolute, fixed, and sticky positioning
+    Z-index and stacking context
+    top, right, bottom, left properties
+
+4. Flexbox
+
+    Flex container and flex items
+    Key properties: display: flex, justify-content, align-items, align-self, flex-direction, flex-wrap, etc.
+    order, flex-grow, flex-shrink, and flex-basis
+    Use cases for centering and responsive layouts
+
+5. CSS Grid
+
+    Grid container and grid items
+    Defining rows and columns using grid-template-rows, grid-template-columns
+    grid-gap, grid-template-areas, grid-column, grid-row
+    Aligning grid items with justify-items, align-items, etc.
+
+6. Responsive Design
+
+    Media queries: syntax and use cases
+    Mobile-first approach
+    Breakpoints, viewport width (vw), viewport height (vh)
+    Flexbox and Grid for responsive layouts
+
+7. CSS Transitions and Animations
+
+    Transitions: transition-property, transition-duration, transition-timing-function, transition-delay
+    Keyframe animations: @keyframes, animation-name, animation-duration, animation-timing-function, animation-delay
+    Difference between transitions and animations
+
+8. CSS Variables (Custom Properties)
+
+    How to define and use CSS variables
+    Benefits of using CSS variables for theming and reusability
+    Syntax: --variable-name: value;
+
+9. Specificity and Inheritance
+
+    Understanding specificity hierarchy: inline styles, IDs, classes, and elements
+    Inheritance of properties: which properties are inherited and which are not
+    !important usage and its pitfalls
+
+10. CSS Preprocessors
+
+    Overview of SASS, LESS, and Stylus
+    Benefits: nesting, variables, mixins, functions, and loops
+    Basic syntax differences between SCSS and CSS
+
+11. Typography
+
+    Font-family, font-size, line-height, letter-spacing, text-transform
+    Web-safe fonts vs custom fonts (Google Fonts)
+    @font-face rule and font loading strategies
+
+12. CSS for Accessibility
+
+    Techniques for improving visual accessibility
+    :focus, :active, and :hover states for keyboard navigation
+    Using aria- attributes in conjunction with CSS
+
+13. CSS Optimization
+
+    Minification and compression
+    Reducing reflows and repaints
+    Efficient CSS selectors for performance
+
+14. Cross-Browser Compatibility
+
+    Vendor prefixes (e.g., -webkit-, -moz-, etc.)
+    Feature detection and graceful degradation
+    Tools like Autoprefixer for managing compatibility
+
+15. CSS Functions
+
+    calc(), var(), clamp(), min(), max()
+    rgba() for transparency
+    translate(), rotate(), scale() for transformations
+
+16. Advanced Layout Techniques
+
+    Multi-column layout with column-count and column-gap
+    float for layouts (though less common now with Flexbox and Grid)
+    CSS Shapes and Clip-paths
